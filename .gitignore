@@ -4,6 +4,9 @@
 
 *.pyc
 *.h5
+lab1/output*
+lab1/tmp*
+lab1/training_checkpoints/
 lab2/logs/*
 
 

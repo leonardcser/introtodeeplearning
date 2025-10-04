@@ -2,7 +2,7 @@ import cv2
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-import tensorflow as tf
+import torch
 import time
 import h5py
 import sys

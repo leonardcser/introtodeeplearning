@@ -7,9 +7,11 @@ from string import Formatter
 
 
 def display_model(model):
-    import tensorflow as tf
-    tf.keras.utils.plot_model(model, to_file="tmp.png", show_shapes=True)
-    return ipythondisplay.Image("tmp.png")
+    import torch
+    from torchviz import make_dot
+    # PyTorch model visualization - requires torchviz package
+    # Example: display_model requires a sample input to trace the model
+    raise NotImplementedError("PyTorch model visualization requires torchviz and a sample input")
 
 
 def plot_sample(x, y, vae, backend='tf'):
